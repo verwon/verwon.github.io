@@ -158,9 +158,8 @@ b {
 #nav {
     display: flex;
     flex-direction: row;
-    font-family: Red Hat Display;
+    font-family: Barlow;
     margin-right: 30px;
-
 }
 
 .menubutton {

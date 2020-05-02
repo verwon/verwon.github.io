@@ -1,0 +1,241 @@
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#contactcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #26628D;
+  width: 50%;
+  height: 375px;
+  border-radius: 30px;
+}
+
+html, body {
+  margin: 0px;
+}
+
+textarea {
+  line-height: 100px;
+}
+
+#contact {
+  text-align: center;
+  font-size: 10px;
+  font-family: Red Hat Display;
+  color: white;
+}
+
+#smaller-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fname, #number {
+  width: 45%;
+  margin: 15px;
+}
+
+#email {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+}
+
+#message {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    line-height: 100px;
+}
+
+
+#button {
+  width: 80px;
+  height:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444343;
+
+}
+
+#buttontext {
+  font-size: 10px;
+  font-family: Red Hat Display;
+  color: white;
+}
+
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background: #999DA0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border-style: none;
+}
+
+#contactcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#leftside {
+  margin: 10px;
+  color: white;
+  padding-top: 97px;
+  padding-left: 30px;
+  padding-right: 70px;
+  font-size: 16px;
+
+
+}
+
+#rightside {
+  padding-top: 20px;
+  padding-right: 170px;
+  color: #93CBFF;
+  font-size: 12px;
+  font-family: Barlow;
+
+}
+
+.links {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin-top: 20px;
+}
+#mailpic {
+  width: 100px;
+  height: 100px;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #93CBFF;
+  padding-top: 25px;
+  margin-top: 50px;
+}
+
+p {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+}
+
+i {
+  color: white;
+  font-family: PT Serif Caption;
+  font-size: 25px;
+  line-height: 66px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+b {
+  color: #93CBFF;
+  font-family: Barlow;
+  letter-spacing: 0.15em;}
+#nav {
+    display: flex;
+    flex-direction: row;
+    font-family: Red Hat Display;
+    margin-right: 30px;
+
+}
+
+.menubutton {
+    margin-left: 20px;
+
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#line {
+  width: 95%;
+
+  height: 1px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+#logo {
+    transform: translateY(1px);
+    transform: translateX(25px);
+}
+
+#smallbar {
+    width: 100%;
+    height: 15px;
+    background: #FF9C40;
+    position: absolute;
+    top: 45px;
+    margin: 0px;
+    }
+
+/* Body */
+
+
+#welcome {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+
+#donuts {
+    width:100%;
+    overflow:hidden;
+    margin:0;
+ }
+
+ /* Footer */
+
+#footernav {
+    display: flex;
+    font-family: Red Hat Display;
+    color: white;
+    font-size: 15px;
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 40px;
+    background: #93CBFF;
+
+    align-items: center;
+    margin: 0px;
+    border-style: none;
+}
+
+.footerbutton {
+    margin-right: 20px;
+}
+}

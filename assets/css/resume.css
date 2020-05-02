@@ -1,0 +1,263 @@
+body {
+    background-color: white;
+    margin: 0;
+    height: 50%;
+}
+#body1 {
+  margin: 20px;
+  padding-bottom: 20px;
+
+}
+
+#lightboxoverlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+#ourstory {
+  height: 520px;
+  width: auto;
+  margin-right: 70px;
+
+}
+
+#resumepic {
+    height: 120px;
+    width: auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  font-family: Red Hat Display;
+  font-size: 20px;
+  color: #444343;
+  height: 100px;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background: #999DA0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border-style: none;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    font-family: Red Hat Display;
+    margin-right: 30px;
+
+}
+
+.menubutton {
+    margin-left: 20px;
+
+}
+#nav a{
+  text-decoration: none;
+    color: white;
+
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+#logo {
+    transform: translateY(1px);
+    transform: translateX(25px);
+}
+
+
+/* Body */
+body, html {
+ height: 100%;
+ }
+
+
+#sidebar {
+  width: 250px;
+  height: auto;
+  background: #26628D;
+  color: white;
+  top: 50px;
+  padding: 25px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+  animation: slideright 2s;
+  left: -100px;
+  text-decoration: none;
+
+}
+
+@keyframes slideright {
+  0% { transform: translateX(-300px);}
+  100% { transform: translateX(0px);}
+
+}
+
+#resume {
+  font-size: 10px;
+  background-color: white;
+  padding-top: 30px;
+  padding-right: 170px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+
+
+}
+#namecontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+}
+
+p {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+#line {
+  width: 98%;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+#line2 {
+  width: 100.5%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 15px;
+}
+
+#contentcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#maincontent {
+  padding: 70px;
+  margin-left: 78px;
+  font-size: 12px;
+  margin-right: 65px;
+}
+
+#mainresume {
+  width: 70%;
+  height: 100%;
+  background: white;
+  color: black;
+}
+
+#titleanddate {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#welcome {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#resumepic {
+  margin-right: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#resumename {
+  margin-top: 30px;
+  width: 80px;
+  height:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  margin: auto;
+  font-size: 16px;
+
+}
+
+#resume {
+  background-color: #93CBFF;
+  padding: 2px;
+  height: 30px;
+  margin-left: -75px;
+  margin-top: 80px;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+
+#buttontext {
+  font-size: 10px;
+  font-family: Red Hat Display;
+  color: white;
+
+}
+
+
+#resumetext {
+  font-size: 10px;
+  font-family: Red Hat Display;
+  color: white;
+  text-decoration: none;
+
+}
+
+#donuts {
+    width:100%;
+    overflow:hidden;
+    margin:0;
+ }
+
+ /* Footer */
+
+#footernav {
+    display: flex;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 15px;
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 40px;
+    background: #93CBFF;
+
+    align-items: center;
+    margin: 0px;
+    border-style: none;
+}
+
+.footerbutton {
+    margin-right: 20px;
+
+}

@@ -10,6 +10,10 @@ body {
   padding-bottom: 20px;
 }
 
+#nav a:hover {
+  text-decoration: underline;
+}
+
 .pic {
   margin-top: 55px;
 }
@@ -50,7 +54,7 @@ body {
 }
 
 #container2 {
-  font-family: Barlow Semi Condensed;  
+  font-family: Barlow Semi Condensed;
   color: #75787A;
   font-size: 16px;
 
@@ -157,5 +161,4 @@ h1 {
 
 .footerbutton {
     margin-right: 20px;
-}
 }

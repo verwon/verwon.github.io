@@ -29,6 +29,10 @@ textarea {
   color: white;
 }
 
+#nav a:hover {
+  text-decoration: underline;
+}
+
 #smaller-container {
   display: flex;
   justify-content: space-between;
@@ -73,15 +77,15 @@ textarea {
 
 
 #header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 50px;
-    background: #999DA0;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-    border-style: none;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 50px;
+      background: #999DA0;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px;
+      border-style: none;
 }
 
 #contactcontainer {
@@ -132,11 +136,6 @@ a {
   margin-top: 50px;
 }
 
-p {
-  color: white;
-  font-family: 'Barlow', sans-serif;
-  font-size: 14px;
-}
 
 i {
   color: white;
@@ -147,10 +146,15 @@ i {
   font-weight: normal;
 }
 
+#findme {
+  color: white;
+}
+
 b {
   color: #93CBFF;
   font-family: Barlow;
   letter-spacing: 0.15em;}
+
 #nav {
     display: flex;
     flex-direction: row;
@@ -237,5 +241,4 @@ b {
 
 .footerbutton {
     margin-right: 20px;
-}
 }
